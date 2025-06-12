@@ -14,7 +14,7 @@ st.set_page_config(page_title="UL Morte – Simulazione", layout="wide")
 st.title("Simulazione della prestazione in caso di morte (con garanzia)")
 
 # Lade Sterbetafel
-df_mortality = load_istat_table("Tavole_di_mortalità.csv")
+df_mortality = load_istat_table("Tavole_di_mortalita.csv")
 
 # Eingaben
 inputs = get_user_inputs()
